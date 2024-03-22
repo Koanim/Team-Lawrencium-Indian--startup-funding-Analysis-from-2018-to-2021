@@ -1,2 +1,4 @@
-Createting gitignore
-\.env
+#Createting gitignore
+/.env
+/venv
+/.ipynb_checkpoints

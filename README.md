@@ -86,7 +86,3 @@ We welcome contributions and feedback from the community to enhance this analysi
 
 ## License 📜
 This project is licensed under the [MIT License](LICENSE), allowing for open collaboration and sharing.
-
----
-
-**Note:** Replace `<link>` and `<email>` with actual links and contact information in your README. Adjust the sections as needed based on your specific analysis and findings.

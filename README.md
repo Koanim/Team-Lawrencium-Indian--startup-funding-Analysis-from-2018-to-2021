@@ -60,7 +60,7 @@ Key drivers of this growth include government support, access to capital, a robu
 ## Visualizations 👀
 - Line Chart 📈
 - Bar chart 📊
-- Scatter Plot ◼▪◾
+- Swarm Plot ◼▪◾
 
 ## Analysis 🔍
 - Utilizing Python and data analysis libraries such as Pandas, Matplotlib, and Seaborn, we performed exploratory data analysis (EDA) to uncover trends and insights.
@@ -86,3 +86,16 @@ We welcome contributions and feedback from the community to enhance this analysi
 
 ## License 📜
 This project is licensed under the [MIT License](LICENSE), allowing for open collaboration and sharing.
+
+## Acknowledgments
+We acknowledge the following persons for their coaching and support
+Violette Naa Adoley Allotey
+Racheal Appiah-Kubi
+Israel Anaba Ayamga
+
+## Authors
+Victor Nyarko Anim
+Oluwadamilola Aluko
+Aminu Oluwarotimi Desmond
+Nana Kwame Frimpong Baah 
+Leticia Blay

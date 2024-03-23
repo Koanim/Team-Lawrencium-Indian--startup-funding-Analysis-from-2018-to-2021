@@ -89,13 +89,14 @@ This project is licensed under the [MIT License](LICENSE), allowing for open col
 
 ## Acknowledgments
 We acknowledge the following persons for their coaching and support
-Violette Naa Adoley Allotey
-Racheal Appiah-Kubi
-Israel Anaba Ayamga
+
+- Violette Naa Adoley Allotey
+- Racheal Appiah-Kubi
+- Israel Anaba Ayamga
 
 ## Authors
-Victor Nyarko Anim
-Oluwadamilola Aluko
-Aminu Oluwarotimi Desmond
-Nana Kwame Frimpong Baah 
-Leticia Blay
+- Victor Nyarko Anim
+- Oluwadamilola Aluko
+- Aminu Oluwarotimi Desmond
+- Nana Kwame Frimpong Baah
+- Leticia Blay

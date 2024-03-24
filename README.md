@@ -67,7 +67,10 @@ Key drivers of this growth include government support, access to capital, a robu
 - Fintech companies receive funding exceeding or equal to the average funding.
 - The funding received in 2020 is no greater than the funding in 2021.
 - Funding received in 2018 equals or exceeds that of 2019.
-- Companies aged 5 years or more receive funding equal to or less than the average amount
+- Companies aged 5 years or more receive funding equal to or less than the average amount.
+- Companies that are 10 years and above do not receive more than average amount of Funding.
+- There is no significant difference between the sample mean and population mean for the average amount of funding received in Bengaluru.
+- There is no significant difference in the average funding received for bengaluru and Mumbai in the year 2020.
 
 
 ### Features
@@ -250,7 +253,7 @@ Here, you need to recursively install the packages in the `requirements.txt` fil
 
 🕵🏽‍♀️ **Victor Anim**                                   
 🕵🏽‍♀️ **Aluko Oluwadamilola**                        [GitHub Profile](https://github.com/damzking?tab=repositories)
-🕵🏽‍♀️ **Aminu Oluwarotimi Desmond**
+🕵🏽‍♀️ **Aminu Oluwarotimi Desmond**                  [GitHub Profile](https://github.com/bamzyyyy?tab=repositories)
 🕵🏽‍♀️ **Nana Kwame Frimpong Baah**
 🕵🏽‍♀️ **Leticia Blay**
 🕵🏽‍♀️ **Richmond Tetteh**

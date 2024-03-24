@@ -128,8 +128,14 @@ Features
 
 
 - Univariate Analysis
+  
   ![image](https://github.com/Koanim/Team-Lawrencium-Indian--startup-funding-Analysis-from-2018-to-2021/assets/87522676/a70a3b7f-5ce0-4f52-8386-0bfdda76779c)
+
+  
 - Bivariate Analysis
+
+![image](https://github.com/Koanim/Team-Lawrencium-Indian--startup-funding-Analysis-from-2018-to-2021/assets/87522676/3ef8c030-6f55-4983-a227-76b912e3dd2b)
+
 
 
 ## Visualizations 👀

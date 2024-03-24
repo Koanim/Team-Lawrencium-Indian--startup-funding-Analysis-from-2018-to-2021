@@ -134,7 +134,7 @@ Features
   
 - Bivariate Analysis
 
-![image](https://github.com/Koanim/Team-Lawrencium-Indian--startup-funding-Analysis-from-2018-to-2021/assets/87522676/3ef8c030-6f55-4983-a227-76b912e3dd2b)
+
 
 
 

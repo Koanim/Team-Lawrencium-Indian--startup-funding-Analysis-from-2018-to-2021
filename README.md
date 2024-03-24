@@ -45,7 +45,7 @@ Key drivers of this growth include government support, access to capital, a robu
 - Seaborn
 - Scipy
 - Matplotlib
-- Scikit-learn
+- PyODBC
 
 ## Cleaning the Data 🧹
 #### We begin by thoroughly cleaning our data.

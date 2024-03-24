@@ -9,25 +9,31 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [Indian Startup Ecosystem : Funding Trends 2018-2021 ](#Indian Startup Ecosystem-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-  - [Key Insights ](#key-insights-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+- Overview
+- [🛠 Built With ](#-built-with-)
+- [Tech Stack ](#tech-stack-)
+- Packages and Libraries
+- Cleaning The Data
+- Exploratory Data Analysis
+- Visualizations
+- Analysis
+- Findings
+- [Key Insights ](#key-insights-)
+- [💻 Getting Started ](#-getting-started-)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+- [Install](#install)
+- [Usage](#usage)
+- [👥 Authors ](#-authors-)
+- [🔭 Future Features ](#-future-features-)
+- [🤝 Contributing ](#-contributing-)
+- [⭐️ Show your support ](#️-show-your-support-)
+- [🙏 Acknowledgments ](#-acknowledgments-)
+- [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-#Indian Startup Ecosystem : Funding Trends 2018-2021 <a name="about-project"></a>
+# Indian Startup Ecosystem : Funding Trends 2018-2021 <a name="about-project"></a>
 
 ## Overview 
 
@@ -64,7 +70,7 @@ Key drivers of this growth include government support, access to capital, a robu
 - Companies aged 5 years or more receive funding equal to or less than the average amount
 
 
-Features
+### Features
 1. **Founders**: Name of the Company founders or owners
 2. **Founded**: The year the company began 
 3. **Stage**: The investment stage at which the funding was received 
@@ -247,6 +253,7 @@ Here, you need to recursively install the packages in the `requirements.txt` fil
 🕵🏽‍♀️ **Aminu Oluwarotimi Desmond**
 🕵🏽‍♀️ **Nana Kwame Frimpong Baah**
 🕵🏽‍♀️ **Leticia Blay**
+🕵🏽‍♀️ **Richmond Tetteh**
 
 
 

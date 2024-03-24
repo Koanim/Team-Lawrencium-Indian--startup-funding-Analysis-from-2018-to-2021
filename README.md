@@ -114,7 +114,8 @@ Features
 - Seaborn
 - Scipy
 - Matplotlib
-- Scikit-learn
+- Pyodbc
+- Dotenv
 
 ## Cleaning the Data 🧹
 #### We begin by thoroughly cleaning our data.
@@ -123,11 +124,15 @@ Features
 - Organizing columns
 
 ## Exploratory Data Analysis 🕵
+
+![image](https://github.com/Koanim/Team-Lawrencium-Indian--startup-funding-Analysis-from-2018-to-2021/assets/87522676/a70a3b7f-5ce0-4f52-8386-0bfdda76779c)
+
 - Univariate Analysis
 - Bivariate Analysis
 
 
 ## Visualizations 👀
+
 - Line Chart 📈
 - Bar chart 📊
 - Swarm Plot ◼▪◾

@@ -1,8 +1,33 @@
-# Indian Startup Funding Analysis (2018-2021) 
+<a name="readme-top"></a>
 
-[![Open In Jupyter Notebook](https://img.shields.io/badge/Open%20in-Jupyter%20Notebook-orange?logo=jupyter)]
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/downloads/)
+<div align="center">
+  <h1><b>Indian Startup Ecosystem : Funding Trends 2018-2021</b></h1>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [Indian Startup Ecosystem : Funding Trends 2018-2021 ](#Indian Startup Ecosystem-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [Key Insights ](#key-insights-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+#Indian Startup Ecosystem : Funding Trends 2018-2021 <a name="about-project"></a>
 
 ## Overview 
 
@@ -38,6 +63,50 @@ Key drivers of this growth include government support, access to capital, a robu
 - Funding received in 2018 equals or exceeds that of 2019.
 - Companies aged 5 years or more receive funding equal to or less than the average amount
 
+
+Features
+1. **Founders**: Name of the Company founders or owners
+2. **Founded**: The year the company began 
+3. **Stage**: The investment stage at which the funding was received 
+4. **Amount**: The amount of money received by the companies from the investors 
+5. **Sector**: The Sectors in which different companies are classified based on their services or functions;
+6. **AboutCompany**: What the company is about and what they do
+7. **Location**: Different cities where the startups are located;
+8. **Year**: The year the company received funding;
+
+
+
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+
+
+
+
+<details>
+<summary>Language</summary>
+  <ul>
+    <li><a href="https://www.python.org/">Python</a></li>
+  </ul>
+</details>
+
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.microsoft.com/en-us/sql-server">SQL</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Libraries</summary>
+  <ul>
+    <li><a href="https://pandas.pydata.org/">Pandas</a></li>
+  </ul>
+</details>
+
 ## Packages and Libraries 📚
 #### Collection of significant Python Libraries:
 - Pandas
@@ -45,7 +114,7 @@ Key drivers of this growth include government support, access to capital, a robu
 - Seaborn
 - Scipy
 - Matplotlib
-- PyODBC
+- Scikit-learn
 
 ## Cleaning the Data 🧹
 #### We begin by thoroughly cleaning our data.
@@ -56,6 +125,7 @@ Key drivers of this growth include government support, access to capital, a robu
 ## Exploratory Data Analysis 🕵
 - Univariate Analysis
 - Bivariate Analysis
+
 
 ## Visualizations 👀
 - Line Chart 📈
@@ -75,28 +145,138 @@ Key drivers of this growth include government support, access to capital, a robu
 - `startup_funding_data.csv`: Raw data used for analysis.
 - `README.md`: This file providing an overview of the project.
 
-## Usage 🛠️
-1. Clone the repository to your local machine.
-2. Install the required Python libraries.
-3. Open and run the `LP1_Lawrencium _project.ipynb` notebook in Jupyter or any compatible environment.
-4. Explore the analysis, visualizations, and conclusions derived from the data.
 
-## Contributing 🤝
-We welcome contributions and feedback from the community to enhance this analysis. Feel free to fork the repository, make improvements, and submit pull requests.
 
-## License 📜
-This project is licensed under the [MIT License](LICENSE), allowing for open collaboration and sharing.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- Features -->
 
-## Acknowledgments
+## Key Insights <a name="key-features"></a>
+
+- **A dataset which analyzed the Indian startup ecosystem from 2018-2021**
+- **Insights on the funding trends**
+- **Insights on Amount in circulation from 2018-2021**
+- **Sampling Techniques, Inferences, and Hypothesis tests on location and year for differences**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+![image](https://raw.githubusercontent.com/Koanim/Team-Lawrencium-Indian--startup-funding-Analysis-from-2018-to-2021/27fa53558e249dc650bb404ee9c6ba3610a18d23/exploratoty%20data.JPG
+![Exploratory Data Visualization](https://raw.githubusercontent.com/koanim/Team-Lawrencium-Indian--startup-funding-Analysis-from-2018-to-2021/branch/exploratory_data_viz.png)
+
+
+
+
+
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Python
+
+
+### Setup
+
+Clone this repository to your desired folder:
+
+
+```sh
+  cd my-folder
+  git clone hhttps://github.com/Koanim/Team-Lawrencium-Indian--startup-funding-Analysis-from-2018-to-2021
+```
+
+Change into the cloned repository
+
+```sh
+  cd Team-Lawrencium-Indian--startup-funding-Analysis-from-2018-to-2021
+  
+```
+
+Create a virtual environment
+
+```sh
+
+python -m venv env
+
+```
+
+Activate the virtual environment
+
+```sh
+    env/Scripts/activate
+```
+
+
+### Install
+
+Here, you need to recursively install the packages in the `requirements.txt` file using the command below 
+
+```sh
+   pip install -r requirements.txt
+```
+
+
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+🕵🏽‍♀️ **Victor Anim**                                   
+🕵🏽‍♀️ **Aluko Oluwadamilola**                        [GitHub Profile](https://github.com/damzking?tab=repositories)
+🕵🏽‍♀️ **Aminu Oluwarotimi Desmond**
+🕵🏽‍♀️ **Nana Kwame Frimpong Baah**
+🕵🏽‍♀️ **Leticia Blay**
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project kindly show some love, give it a 🌟 **STAR** 🌟
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
 We acknowledge the following persons for their coaching and support
 
-- Violette Naa Adoley Allotey
-- Racheal Appiah-Kubi
-- Israel Anaba Ayamga
+Violette Naa Adoley Allotey
+Racheal Appiah-Kubi
+Israel Anaba Ayamga
 
-## Authors
-- Victor Nyarko Anim
-- Oluwadamilola Aluko
-- Aminu Oluwarotimi Desmond
-- Nana Kwame Frimpong Baah
-- Leticia Blay
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+

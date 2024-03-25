@@ -1,49 +1,102 @@
-# Team-Lawrencium-Indian--startup-funding-Analysis-from-2018-to-2021
+# Indian Startup Funding Analysis (2018-2021) 
 
-## Accessing the data from the database
-1. Please follow the steps in this notebook to have access to the dataset. 
+[![Open In Jupyter Notebook](https://img.shields.io/badge/Open%20in-Jupyter%20Notebook-orange?logo=jupyter)]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/downloads/)
 
-### Steps to take to use environment variables as opposed to credentials literals
-1. Install pyodbc  - a package for creating connection strings to your remote database server.
-2. Install python-dotenv - a package for creating environment variables that will help you hide sensitve configuration informantion such as database credentials and API keys.
-3. Import all the necessary libraies
-   1. pyodbc (for creating a connection)
-   2. python-dotenv (loading environment variables)
-   3. os (for accessing the environement variables using the load_env function. This is not needed if you use the dotenv_values function instead)
-4. Now create a file called .env in the root of your project folder (Note, the file name begins with a dot).
-5. In the .env file, put all your sensitive information like server name, database name, username, and password.
-6. Next create a .gitignore file (a new file with the name `.gitignore`. Note that gitignore file names begin with a dot).
-7. Open the .gitignore file and type in the name of the .env file we just created like this "/.env". This will prevent git from tracking that file. Essesntially any file name in the gitignore file will be ignored by git and won't be checked into the repository.
-8. Create a connection by accessing your connection string with your defined environment variables.
+## Overview 
 
-#### DATA COLLATION
-1. Get data from other sources and concatenate (Depends on the project) to perform your analysis.
-2. Extract and store key-value pairs from the .env file in a structured dictionary format for easy access to configuration settings.
-3. Retrieve specific credential information like database connection parameters (username, password, server address, etc.) from the structured dictionary.
-4. Formulate a connection string using the retrieved credential values, which is necessary for establishing a database connection.
-5. Leverage the pyodbc library's connect method by providing the connection string as an argument to initiate a connection to the server.
-6. Successfully establish a connection with the database server.
-7. Transform and export the data retrieved from the SQL query into a CSV file format for each set of extracted data.
-8. Download the CSV file(s) from GitHub to a OneDrive account, facilitating file sharing and storage in the cloud.
-9. Add a new column to each dataframe to record the year of funding.
+India's startup ecosystem has experienced rapid growth, adding over 16,000 new tech companies in 2020. Despite funding challenges, Indian startups secured $8.4 billion in funding in 2023, showcasing investor confidence. The ecosystem boasts 99,000 startups and 108 unicorns valued at $340.80 billion, ranking third globally.
 
-##### DATA CLEANING
-We thoroughly clean the data to ensure its accuracy, consistency, and readiness for analysis. Starting from each Year(2018 - 2021)
-  ## CLEANING YEAR 2018
-  1. Removed the numerical digits from values, creating a new dataframe column 'cur_symb18'.
-  2. Eliminated symbols to establish another column 'Amount_no_symb18'. Proceeded to drop the column containing amounts with symbols.
-  3. renaming the columns 'Amount_no_symb18' and 'cur_symb18' accordingly.
-  4. To align the location data of the 2018 dataset with the other datasets, which feature only one city per location, we selected the first listed city in the location column and discarded the rest.
-  5. We converted amounts in rupees to dollars using the 2018 average exchange rate of 0.0146 USD.  
+Key drivers of this growth include government support, access to capital, a robust talent pool, and a supportive entrepreneurial culture. India's focus on fostering entrepreneurship has been instrumental in its rise as a major player in the global startup landscape, with Silicon Valley maintaining its top position.
 
- ##### OBSERVATIONS MADE FROM DATA CLEANING
-1. Rename 'Company Name' in df_fund2018, 'Company/Brand' in df_fund2019, and 'Company_Brand' in df_fund2020 and df_fund2021 to 'Company_Brand' for consistency.
-2. Add the 'Founded' column to df_fund2018 to align with other dataframes.
-3. Rename 'Industry' in df_fund2018 to 'Sector' to match the terminology used in other dataframes.
-4. Replace 'Headquarter' with 'Location' in all dataframes except df_fund2018, which already uses 'Location'.
-5. Change 'Round/Series' in df_fund2018 to 'stage' to harmonize column names across all dataframes.
-6. Convert 'Amount($)' in df_fund2019 to 'Amount' for uniformity.
-7. Standardize the description column to 'About Company' across all dataframes, removing underscores and aligning naming conventions.
-8. Insert 'Founders' and 'Investors' columns into df_fund2018 to ensure all dataframes contain these fields.
-9. Remove 'Column10' from df_fund2020 due to its null values to clean up the dataset.
-10. Observed that the currency was $; in addition, several businesses only had text and no quantity.
+## Data Sources 📊
+- The dataset is provided in CSV format for transparency and reproducibility.
+- Statistics on Indian startup funding from 2018 to 2021.
+
+## Topical Questions and Hypotheses
+#### Questions 🤔:
+
+- What was the average funding amount in 2018 compared to 2019?
+- What was the average funding amount in 2020 compared to 2021?
+- How has the funding trend evolved from 2018 to 2021?
+- Which startup received the highest average funding?
+- What are the top 10 cities with the highest number of start-ups?
+- What are the top 10 cities that attract the most start-up funding?
+- What are the top 10 sectors attracting the most start-up funding?
+- How has the funding trend been for different sectors over the years?
+- Which stage is predominant among start-ups?
+- Which startup stage received the most funding?
+- How has the funding trend evolved for different stages over the years?
+
+### Hypotheses 🔬:
+#### A significance level (α) of 5% will used to perform all the hypothesis testing
+
+- Bengaluru's start-ups receive funding equal to or greater than those in New Delhi.
+- Fintech companies receive funding exceeding or equal to the average funding.
+- The funding received in 2020 is no greater than the funding in 2021.
+- Funding received in 2018 equals or exceeds that of 2019.
+- Companies aged 5 years or more receive funding equal to or less than the average amount
+
+## Packages and Libraries 📚
+#### Collection of significant Python Libraries:
+- Pandas
+- Numpy
+- Seaborn
+- Scipy
+- Matplotlib
+- Scikit-learn
+
+## Cleaning the Data 🧹
+#### We begin by thoroughly cleaning our data.
+- Replacing any missing values
+- Eliminating duplicates
+- Organizing columns
+
+## Exploratory Data Analysis 🕵
+- Univariate Analysis
+- Bivariate Analysis
+
+## Visualizations 👀
+- Line Chart 📈
+- Bar chart 📊
+- Swarm Plot ◼▪◾
+
+## Analysis 🔍
+- Utilizing Python and data analysis libraries such as Pandas, Matplotlib, and Seaborn, we performed exploratory data analysis (EDA) to uncover trends and insights.
+- We analyzed funding trends by year, sector-wise funding distribution, top investors, geographical distribution, and funding rounds.
+
+## Findings 📈
+- Indian startup funding has shown significant growth from 2018 to 2021, with notable peaks in certain sectors.
+- The analysis reveals key sectors attracting major investments and identifies top investors contributing to the startup ecosystem.
+
+## Key Files 📂
+- `LP1_Lawrencium _project.ipynb`: Jupyter Notebook containing the code for data cleaning, EDA, and visualization.
+- `startup_funding_data.csv`: Raw data used for analysis.
+- `README.md`: This file providing an overview of the project.
+
+## Usage 🛠️
+1. Clone the repository to your local machine.
+2. Install the required Python libraries.
+3. Open and run the `LP1_Lawrencium _project.ipynb` notebook in Jupyter or any compatible environment.
+4. Explore the analysis, visualizations, and conclusions derived from the data.
+
+## Contributing 🤝
+We welcome contributions and feedback from the community to enhance this analysis. Feel free to fork the repository, make improvements, and submit pull requests.
+
+## License 📜
+This project is licensed under the [MIT License](LICENSE), allowing for open collaboration and sharing.
+
+## Acknowledgments
+We acknowledge the following persons for their coaching and support
+
+- Violette Naa Adoley Allotey
+- Racheal Appiah-Kubi
+- Israel Anaba Ayamga
+
+## Authors
+- Victor Nyarko Anim
+- Oluwadamilola Aluko
+- Aminu Oluwarotimi Desmond
+- Nana Kwame Frimpong Baah
+- Leticia Blay
